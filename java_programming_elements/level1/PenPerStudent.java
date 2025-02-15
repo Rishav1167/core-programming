@@ -1,6 +1,6 @@
 package java_programming_elements.level1;
 
-public class pen_Students {
+public class PenPerStudent {
 
     public static void main(String[] args) {
         int pens = 14, students = 3;

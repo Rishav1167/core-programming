@@ -1,8 +1,8 @@
-package java_programming_elements.level2;
+package java_programming_elements.level1;
 
 import java.util.Scanner;
 
-public class Basic_Calculator {
+public class BasicCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double a = input.nextDouble();

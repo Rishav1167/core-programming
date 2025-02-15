@@ -2,7 +2,7 @@ package java_programming_elements.level1;
 
 import java.util.Scanner;
 
-public class max_Handshakes {
+public class MaxHandshakes {
      public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();

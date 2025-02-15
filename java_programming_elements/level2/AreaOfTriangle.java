@@ -2,7 +2,7 @@ package java_programming_elements.level2;
 
 import java.util.Scanner;
 
-public class Area_Of_Triangle {
+public class AreaOfTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double base = input.nextDouble();

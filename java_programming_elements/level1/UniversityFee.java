@@ -1,6 +1,6 @@
 package java_programming_elements.level1;
 
-public class university_fee {
+public class UniversityFee {
     public static void main(String[] args) {
         double fee = 125000, discountPercent = 10;
         double discount = (fee * discountPercent) / 100;

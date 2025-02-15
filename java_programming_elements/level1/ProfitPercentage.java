@@ -1,6 +1,6 @@
 package java_programming_elements.level1;
 
-public class profit_percentage {
+public class ProfitPercentage {
     public static void main(String[] args) {
         int costPrice = 129, sellingPrice = 191;
         int profit = sellingPrice - costPrice;

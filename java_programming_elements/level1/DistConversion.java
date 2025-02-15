@@ -1,8 +1,8 @@
-package java_programming_elements.level2;
+package java_programming_elements.level1;
 
 import java.util.Scanner;
 
-public class Dist_Conversion {
+public class DistConversion {
      public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double feet = input.nextDouble();

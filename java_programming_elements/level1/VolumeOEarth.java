@@ -1,6 +1,6 @@
 package java_programming_elements.level1;
 
-public class volume_Earth {
+public class VolumeOEarth {
     public static void main(String[] args) {
         double radiusKm = 6378;
         double volumeKm3 = (4.0 / 3) * Math.PI * Math.pow(radiusKm, 3);
