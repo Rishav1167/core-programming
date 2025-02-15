@@ -2,7 +2,7 @@ package java_control_flow.level1;
 
 import java.util.*;
 
-public class canVote{
+public class CanVote{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int age = sc.nextInt();

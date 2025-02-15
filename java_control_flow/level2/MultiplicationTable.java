@@ -1,7 +1,7 @@
 package java_control_flow.level2;
 import java.util.Scanner;
 
-public class multiplicationTable {
+public class MultiplicationTable {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

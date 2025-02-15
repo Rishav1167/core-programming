@@ -1,7 +1,7 @@
 package java_control_flow.level1;
 import java.util.*;
 
-class springSeason{
+class SpringSeason {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();

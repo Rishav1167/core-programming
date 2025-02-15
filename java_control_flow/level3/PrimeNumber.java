@@ -1,7 +1,7 @@
 package java_control_flow.level3;
 import java.util.Scanner;
 
-public class primeNumber {
+public class PrimeNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

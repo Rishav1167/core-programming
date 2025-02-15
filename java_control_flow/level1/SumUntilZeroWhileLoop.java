@@ -1,7 +1,7 @@
 package java_control_flow.level1;
 import java.util.Scanner;
 
-public class sumUntilZeroWhileLoop {
+public class SumUntilZeroWhileLoop {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double sum = 0.0;

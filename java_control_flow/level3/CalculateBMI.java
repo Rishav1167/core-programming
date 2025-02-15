@@ -1,7 +1,7 @@
 package java_control_flow.level3;
 import java.util.Scanner;
 
-public class calculateBMI {
+public class CalculateBMI {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

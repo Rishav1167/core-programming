@@ -1,7 +1,7 @@
 package java_control_flow.level3;
 import java.util.Scanner;
 
-public class harshadNumber {
+public class HarshadNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
