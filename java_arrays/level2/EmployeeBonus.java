@@ -15,34 +15,33 @@ public class EmployeeBonus {
         double totalOldSalary = 0;
         double totalNewSalary = 0;
 
-        // Taking input from user
+        // Taking input from user in one go
+        System.out.println("Enter salary and years of service for " + EMPLOYEE_COUNT + " employees (Format: salary year_of_service):");
         for (int i = 0; i < EMPLOYEE_COUNT; i++) {
-            System.out.print("Enter salary for employee " + (i + 1) + " (positive number): ");
             if (scanner.hasNextDouble()) {
                 salaries[i] = scanner.nextDouble();
                 if (salaries[i] <= 0) {
-                    System.out.println("Error: Salary must be a positive number. Please try again.");
-                    i--; // Decrement index to re-enter input
+                    System.out.println("Error: Salary must be a positive number. Please enter again.");
+                    i--; // Re-enter input for the same employee
                     continue;
                 }
             } else {
-                System.out.println("Invalid input. Please enter a valid numeric value.");
-                scanner.next(); // Discard invalid input
-                i--; // Decrement index to re-enter input
+                System.out.println("Invalid input. Please enter a valid numeric salary.");
+                scanner.nextLine(); // Discard invalid input
+                i--;
                 continue;
             }
 
-            System.out.print("Enter years of service for employee " + (i + 1) + " (non-negative number): ");
             if (scanner.hasNextDouble()) {
                 yearsOfService[i] = scanner.nextDouble();
-                if (yearsOfService[i] < 0) {
-                    System.out.println("Error: Years of service cannot be negative. Please try again.");
-                    i--; // Decrement index to re-enter input
+                if (yearsOfService[i] < 0 || yearsOfService[i] > 25) {
+                    System.out.println("Error: Years of service must be between 0 and 25. Please enter again.");
+                    i--;
                 }
             } else {
-                System.out.println("Invalid input. Please enter a valid numeric value.");
-                scanner.next(); // Discard invalid input
-                i--; // Decrement index to re-enter input
+                System.out.println("Invalid input. Please enter a valid numeric years of service.");
+                scanner.nextLine(); // Discard invalid input
+                i--;
             }
         }
 
@@ -55,16 +54,11 @@ public class EmployeeBonus {
             totalNewSalary += newSalaries[i];
         }
 
-        // Display results
-        System.out.println("\nSummary Report:");
-        System.out.println("------------------------------------");
+
         System.out.println("Total old salary of all employees: " + totalOldSalary);
         System.out.println("Total bonus payout: " + totalBonus);
         System.out.println("Total new salary of all employees: " + totalNewSalary);
-        System.out.println("------------------------------------");
 
         scanner.close();
     }
-}
-
 }
