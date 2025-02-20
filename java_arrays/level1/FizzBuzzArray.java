@@ -2,7 +2,7 @@ package java_arrays.level1;
 
 import java.util.*;
 
-public class FizzBuzzArrray {
+public class FizzBuzzArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
